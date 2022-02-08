@@ -6,8 +6,10 @@ import Routes from "./Routes/Routes";
 function App() {
   return (
     <BrowserRouter>
+    <div className="container">
       <Header />
       <Routes />
+    </div>
     </BrowserRouter>
   );
 }

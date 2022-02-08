@@ -1,0 +1,23 @@
+.header{
+    height: $header-height;
+    @include flex(center, space-between);
+    
+    &-menu{
+        a{
+            margin-right: 30px;
+            font-size: 1.1rem;
+        }
+    }
+    &-logo{
+        width: 100px;
+    }
+
+    &-right{
+        
+        .icon{
+            font-size: 1.5rem;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+}
